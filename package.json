@@ -1,0 +1,33 @@
+{
+    "name": "nextron-template",
+    "version": "1.0.0",
+    "private": true,
+    "author": "Tsuji, Yusuke",
+    "description": "Nextron template created by Tsuji, Yusuke.",
+    "main": "app/background.js",
+        "scripts": {
+        "dev": "nextron",
+        "build": "nextron build",
+        "postinstall": "electron-builder install-app-deps"
+    },
+    "dependencies": {
+        "electron-serve": "^1.1.0",
+        "electron-store": "^8.0.1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.18.10",
+        "babel-loader": "^8.2.5",
+        "babel-plugin-styled-components": "^2.0.7",
+        "destyle.css": "^3.0.2",
+        "electron": "^18.2.0",
+        "electron-builder": "^23.0.3",
+        "eslint": "8.21.0",
+        "eslint-config-next": "12.2.3",
+        "eslint-config-prettier": "8.5.0",
+        "next": "^12.1.6",
+        "nextron": "^8.1.0",
+        "react": "^18.1.0",
+        "react-dom": "^18.1.0",
+        "styled-components": "^5.3.5"
+    }
+}
